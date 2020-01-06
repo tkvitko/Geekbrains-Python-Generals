@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e46812b6-a159-4e61-bb84-7601aad0a9fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson_04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_06.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_06_alt_solution.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +36,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
   </component>
-  <component name="RunManager" selected="Python.lesson_04">
+  <component name="RunManager" selected="Python.lesson_06_alt_solution">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="geekbrains_python-general_lesson2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -49,27 +50,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="if_else" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="geekbrains_python-general_lesson2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/if_else.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -120,7 +100,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="maths" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="lesson_06" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="geekbrains_python-general_lesson2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,7 +112,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/maths.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_06.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lesson_06_alt_solution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="geekbrains_python-general_lesson2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_06_alt_solution.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -207,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.lesson_06_alt_solution" />
+        <item itemvalue="Python.lesson_06" />
         <item itemvalue="Python.lesson_04" />
         <item itemvalue="Python.lesson_03" />
         <item itemvalue="Python.while" />
-        <item itemvalue="Python.if_else" />
-        <item itemvalue="Python.maths" />
       </list>
     </recent_temporary>
   </component>
@@ -245,22 +246,22 @@
       <screen x="0" y="23" width="1440" height="804" />
     </state>
     <state x="521" y="349" key="Github.CreateGistDialog/0.23.1440.804@0.23.1440.804" timestamp="1578244440580" />
-    <state width="1419" height="190" key="GridCell.Tab.0.bottom" timestamp="1578258098525">
+    <state width="1419" height="190" key="GridCell.Tab.0.bottom" timestamp="1578322639485">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
-    <state width="1419" height="190" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1578258098525" />
-    <state width="1419" height="190" key="GridCell.Tab.0.center" timestamp="1578258098524">
+    <state width="1419" height="190" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1578322639485" />
+    <state width="1419" height="190" key="GridCell.Tab.0.center" timestamp="1578322639485">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
-    <state width="1419" height="190" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1578258098524" />
-    <state width="1419" height="190" key="GridCell.Tab.0.left" timestamp="1578258098524">
+    <state width="1419" height="190" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1578322639485" />
+    <state width="1419" height="190" key="GridCell.Tab.0.left" timestamp="1578322639484">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
-    <state width="1419" height="190" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1578258098524" />
-    <state width="1419" height="190" key="GridCell.Tab.0.right" timestamp="1578258098525">
+    <state width="1419" height="190" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1578322639484" />
+    <state width="1419" height="190" key="GridCell.Tab.0.right" timestamp="1578322639485">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
-    <state width="1419" height="190" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1578258098525" />
+    <state width="1419" height="190" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1578322639485" />
     <state width="1419" height="256" key="GridCell.Tab.1.bottom" timestamp="1578254389991">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
