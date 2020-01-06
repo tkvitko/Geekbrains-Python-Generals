@@ -14,7 +14,7 @@ def is_not_even(number):
     return number % 2 != 0 #вернет true только для нечетного
 
 #функция для проверки на "больше 4-х"
-def greater_then_4(number):
+def is_greater_then_4(number):
     return number > 4 #вернет true только для "больше 4-х"
 
 # Вводные
@@ -23,7 +23,7 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8]
 # Получение результатов через вспомогательные функции
 print(my_filter(numbers, is_even))
 print(my_filter(numbers, is_not_even))
-print(my_filter(numbers, greater_then_4))
+print(my_filter(numbers, is_greater_then_4))
 
 # Получение тех же результатов через lambda-функции
 print(my_filter(numbers, lambda x: x % 2 == 0))
