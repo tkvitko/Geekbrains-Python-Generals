@@ -35,14 +35,21 @@ print(not_multiple_of_4)
 
 list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -1, -2, -3, -4, -5, -6, -7, -8, -9, -10]
 
+# Классический способ без генератора
 def sqrt_if_positive(list):
     new_list = []
     for i in range(len(list)):
         new_list.append(math.sqrt(list[i])) if list[i] > 0 else new_list.append(list[i])
     return new_list
 
+# Генератор и тернарный оператор в нем
+def sqrt_if_positive2(list):
+    new_list = [math.sqrt(number) if number > 0 else number for number in list]
+    return new_list
+
 print(list)
 print(sqrt_if_positive(list))
+print(sqrt_if_positive2(list))
 
 # Задание 4
 # Написать функцию которая принимает на вход число от 1 до 100.
@@ -52,13 +59,18 @@ print(sqrt_if_positive(list))
 # Обработать возможность возникновения исключительной ситуации, которая поднимается внутри функции.
 
 def my_func(number):
-# TDB Почему не работает через тернарный оператор?
-#    result = number if number == 13 else result = number ** 2
     if number != 13:
         result = number ** 2
     else:
         raise ValueError
     return result
 
+
 user_number = int(input('Введите число: '))
-print(my_func(user_number))
+
+try:
+    result = my_func(user_number)
+except ValueError:
+    print('Исключение')
+else:
+    print(result)
